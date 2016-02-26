@@ -1,0 +1,29 @@
+{
+  "name": "angular-workshop",
+  "description": "angular workshop",
+  "main": "",
+  "authors": [
+    "Gopal Saini <gopal.saini.work@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "es6"
+  ],
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0"
+  }
+}
