@@ -1,0 +1,54 @@
+digraph dependencies {
+  node[shape="component",style="filled",colorscheme=paired12]
+
+
+    node[shape="component"]
+    "myApp.home"[label="myApp.home", color=1]
+
+    
+
+
+    node[shape="ellipse"]
+    
+
+
+    
+      "HomeController"[label="HomeController", color=4]
+      "myApp.home" -> "HomeController"
+    
+
+    
+
+    
+
+    node[shape="cds"]
+    
+
+    
+
+
+
+
+
+
+
+
+
+    node[shape="ellipse",style="filled", color=9]
+    
+
+    
+
+
+    
+      
+    
+
+    
+
+    
+
+    
+
+
+}

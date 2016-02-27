@@ -1,0 +1,66 @@
+digraph dependencies {
+  node[shape="component",style="filled",colorscheme=paired12]
+
+
+    node[shape="component"]
+    "myApp"[label="myApp", color=1]
+
+    
+      "ngNewRouter"[label="ngNewRouter", color=1]
+      "ngNewRouter" -> "myApp"
+    
+      "myApp.home"[label="myApp.home", color=1]
+      "myApp.home" -> "myApp"
+    
+      "myApp.phones"[label="myApp.phones", color=1]
+      "myApp.phones" -> "myApp"
+    
+
+
+    node[shape="ellipse"]
+    
+
+
+    
+      "AppController"[label="AppController", color=4]
+      "myApp" -> "AppController"
+    
+
+    
+
+    
+
+    node[shape="cds"]
+    
+
+    
+
+
+
+
+
+
+
+
+
+    node[shape="ellipse",style="filled", color=9]
+    
+
+    
+
+
+    
+      
+        "$router"[label="$router"]
+        "$router" -> "AppController"
+      
+    
+
+    
+
+    
+
+    
+
+
+}

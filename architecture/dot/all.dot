@@ -1,0 +1,291 @@
+digraph dependencies {
+  node[shape="component",style="filled",colorscheme=paired12]
+
+    node[shape="component"]
+    
+      "myApp"[label="myApp", color=1]
+    
+      "myApp.home"[label="myApp.home", color=1]
+    
+      "myApp.phones"[label="myApp.phones", color=1]
+    
+      "myApp.detail"[label="myApp.detail", color=1]
+    
+
+    
+      
+        "myApp" -> "ngNewRouter"
+      
+        "myApp" -> "myApp.home"
+      
+        "myApp" -> "myApp.phones"
+      
+    
+      
+    
+      
+        "myApp.phones" -> "ngNewRouter"
+      
+    
+      
+    
+
+    node[shape="ellipse"]
+
+
+    
+      
+
+      
+        "AppController"[label="AppController", color=4]
+      
+
+      
+
+      
+
+
+      node[shape="cds"]
+
+      
+
+      
+
+
+
+
+
+      node[shape="ellipse"]
+      
+
+      
+
+      
+        "myApp" -> "AppController"
+      
+
+      
+
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+
+      node[shape="ellipse",style="filled", color=8]
+      
+
+      
+
+      
+        
+          "$router"[label="$router"]
+          "$router" -> "AppController"
+        
+      
+
+      
+
+      
+
+      
+
+    
+      
+
+      
+        "HomeController"[label="HomeController", color=4]
+      
+
+      
+
+      
+
+
+      node[shape="cds"]
+
+      
+
+      
+
+
+
+
+
+      node[shape="ellipse"]
+      
+
+      
+
+      
+        "myApp.home" -> "HomeController"
+      
+
+      
+
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+
+      node[shape="ellipse",style="filled", color=8]
+      
+
+      
+
+      
+        
+      
+
+      
+
+      
+
+      
+
+    
+      
+
+      
+        "PhonesController"[label="PhonesController", color=4]
+      
+
+      
+
+      
+
+
+      node[shape="cds"]
+
+      
+
+      
+
+
+
+
+
+      node[shape="ellipse"]
+      
+
+      
+
+      
+        "myApp.phones" -> "PhonesController"
+      
+
+      
+
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+
+      node[shape="ellipse",style="filled", color=8]
+      
+
+      
+
+      
+        
+          "$routeParams"[label="$routeParams"]
+          "$routeParams" -> "PhonesController"
+        
+      
+
+      
+
+      
+
+      
+
+    
+      
+
+      
+
+      
+        "PhoneService"[label="PhoneService", color=5]
+      
+
+      
+
+
+      node[shape="cds"]
+
+      
+
+      
+
+
+
+
+
+      node[shape="ellipse"]
+      
+
+      
+
+      
+
+      
+        "myApp.detail" -> "PhoneService"
+      
+
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+
+      node[shape="ellipse",style="filled", color=8]
+      
+
+      
+
+      
+
+      
+        
+      
+
+      
+
+      
+
+    
+}

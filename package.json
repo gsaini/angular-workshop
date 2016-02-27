@@ -13,5 +13,9 @@
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "grunt-angular-architecture-graph": "^0.2.6",
+    "grunt-graphviz": "^0.1.1"
   }
 }

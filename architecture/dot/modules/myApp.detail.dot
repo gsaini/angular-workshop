@@ -1,0 +1,54 @@
+digraph dependencies {
+  node[shape="component",style="filled",colorscheme=paired12]
+
+
+    node[shape="component"]
+    "myApp.detail"[label="myApp.detail", color=1]
+
+    
+
+
+    node[shape="ellipse"]
+    
+
+
+    
+
+    
+      "PhoneService"[label="PhoneService", color=5]
+      "myApp.detail" -> "PhoneService"
+    
+
+    
+
+    node[shape="cds"]
+    
+
+    
+
+
+
+
+
+
+
+
+
+    node[shape="ellipse",style="filled", color=9]
+    
+
+    
+
+
+    
+
+    
+      
+    
+
+    
+
+    
+
+
+}
