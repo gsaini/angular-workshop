@@ -18,6 +18,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-angular-architecture-graph');
 
   // Default task(s).
-  grunt.registerTask('default', ['angular_architecture_graph']);
+  grunt.registerTask('build', ['angular_architecture_graph']);
 
 };
