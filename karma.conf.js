@@ -71,6 +71,11 @@ module.exports = function(config) {
     junitReporter: {
       outputDir: 'coverage', // results will be saved as $outputDir/$browserName.xml
       outputFile: 'test-results.xml', // if included, results will be saved as $outputDir/$browserName/$outputFile
-    }
+    },
+    coverageReporter: {
+        type: 'cobertura',
+        dir : 'coverage/',
+        file : 'test-results.xml'
+    },
   })
 }

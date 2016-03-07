@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 48.0.2564 (Mac OS X 10.10.5)" package="" timestamp="2016-03-07T16:36:21" id="0" hostname="dlugsain162475" tests="1" errors="0" failures="0" time="0.001">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"/>
+  </properties>
+  <testcase name="should return 4 when adding 2 and 2" time="0.001" classname="Chrome_48_0_2564_(Mac_OS_X_10_10_5).addition"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
