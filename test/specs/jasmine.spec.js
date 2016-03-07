@@ -11,6 +11,6 @@ describe('addition', function () {
     });
     
     it('should return 8 when adding 6 and 2', function () {
-        expect(6 + 2).toBe(8);
+        expect(6 + 2).toBe(6);
     });
 });
