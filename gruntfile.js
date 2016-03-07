@@ -11,6 +11,20 @@ module.exports = function(grunt) {
                 ]
             }
         }
+    },
+    jasmine: {
+        src: {
+            src: [
+                'src/js/**/*.js',
+                '!src/js/**/*.test.js'
+            ],
+            options: {
+                specs: 'src/js/**/*.test.js',
+                junit: {
+                    path: 'output/testresults'
+                }
+            }
+        }
     }
   });
 

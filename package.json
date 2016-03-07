@@ -17,6 +17,11 @@
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-angular-architecture-graph": "^0.2.6",
-    "grunt-graphviz": "^0.1.1"
+    "grunt-contrib-jasmine": "^1.0.0",
+    "grunt-graphviz": "^0.1.1",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.7",
+    "phantomjs": "^2.1.3"
   }
 }
